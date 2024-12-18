@@ -1,0 +1,28 @@
+---
+import Container from "@components/Container.astro";
+import PageLayout from "@layouts/PageLayout.astro";
+import { HOME } from "@consts";
+import Image from "astro/components/Image.astro";
+---
+
+<PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
+  <Container>
+    <!-- Not found 404 page -->
+    <h1 class="text-4xl font-bold text-black dark:text-white">
+      Ops! Page not found
+    </h1>
+
+    <Image
+      width={640}
+      height={960}
+      src="/404.jpg"
+      alt="404"
+      class="mx-auto mt-8"
+    />
+
+    <br />
+    <p class="text-lg text-gray-600 dark:text-gray-400">
+      Sorry, the page you are looking for could not be found.
+    </p>
+  </Container>
+</PageLayout>
