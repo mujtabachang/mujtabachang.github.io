@@ -16,7 +16,7 @@ repoURL: "https://github.com/mujtabachang/mmg_device"
 
 ## How it works
 
-![Image 14: Picture](./991046810.PNG)
+![Image 14: Picture](./991046810.png)
 
 ​MMG works on the principle of sound waves. The muscle fibers when move, make noise and this noise is picked up by the microphone. Then this microphone signal is collected by computer sound card. [DTW algorithm](https://en.wikipedia.org/wiki/Dynamic_time_warping) does the magic of detecting the gestures with already saved ones in the memory.
 
