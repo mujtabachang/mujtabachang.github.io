@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://mujtabachang.github.io/",
+  site: "https://www.mujtabachang.com/",
   integrations: [mdx(), sitemap(), tailwind()],
   // Old website redirects
   redirects: {
