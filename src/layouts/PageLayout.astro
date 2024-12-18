@@ -9,10 +9,10 @@ import Background from "@components/backgrounds/Background.astro";
 type Props = {
   title: string;
   description: string;
-  backgroundType?: "plum" | "dot" | "rose" | "particle";
+  backgroundType?: "plum" | "dot" | "rose" | "particle" | "";
 };
 
-const { title, description, backgroundType = "dot" } = Astro.props;
+const { title, description, backgroundType = "" } = Astro.props;
 ---
 
 <!doctype html>
