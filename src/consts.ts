@@ -1,5 +1,7 @@
 import type { Site, Metadata, Socials } from "@types";
 
+export const ANIMATED_BACKGROUND = true;
+
 export const SITE: Site = {
   NAME: "Ahmed Mujtaba Chang",
   EMAIL: "mujtabachang@gmail.com",

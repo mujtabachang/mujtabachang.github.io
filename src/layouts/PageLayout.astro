@@ -2,15 +2,17 @@
 import Head from "@components/Head.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import { SITE } from "@consts";
+import { SITE, ANIMATED_BACKGROUND } from "@consts";
 import { Tooltips } from "astro-tooltips";
+import Background from "@components/backgrounds/Background.astro";
 
 type Props = {
   title: string;
   description: string;
+  backgroundType?: "plum" | "dot" | "rose" | "particle";
 };
 
-const { title, description } = Astro.props;
+const { title, description, backgroundType = "dot" } = Astro.props;
 ---
 
 <!doctype html>
@@ -21,6 +23,7 @@ const { title, description } = Astro.props;
     <Tooltips interactive={false} />
   </head>
   <body>
+    {ANIMATED_BACKGROUND && <Background type={backgroundType} />}
     <Header />
     <main>
       <slot />
