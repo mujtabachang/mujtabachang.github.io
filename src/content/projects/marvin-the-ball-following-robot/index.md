@@ -21,7 +21,7 @@ Processors: **Raspberry Pi v3, Arduinos**
 Camera: **Raspberry Pi camera capturing at 90 FPS**  
 Chassis: **Wild Thumper 4WD**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IR2AxS9N79k?si=lglnjQ_VYjT9LGCI" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/IR2AxS9N79k?si=lglnjQ_VYjT9LGCI" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Some more pictures of Marvin
 ![Image 6: Picture](./img-0755_orig.jpg)
