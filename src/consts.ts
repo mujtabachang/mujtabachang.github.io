@@ -10,17 +10,22 @@ export const SITE: Site = {
 };
 
 export const HOME: Metadata = {
-  TITLE: "Home",
+  TITLE: "Ahmed Chang | Tech Solutions Architect",
   DESCRIPTION: "Welcome to my personal website!",
 };
 
 export const BLOG: Metadata = {
-  TITLE: "Blog",
+  TITLE: "Ahmed Chang | Blog",
   DESCRIPTION: "A collection of my thoughts and ideas.",
 };
 
+export const WORK: Metadata = {
+  TITLE: "Ahmed Chang | Work",
+  DESCRIPTION: "Where I have worked and what I have done.",
+};
+
 export const PROJECTS: Metadata = {
-  TITLE: "Projects",
+  TITLE: "Ahmed Chang | Projects",
   DESCRIPTION: "A collection of my personal and professional projects.",
 };
 
