@@ -2,11 +2,9 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": "/Users/mujtabachang/Projects/Web/mujtabachang.github.io",
+    "baseUrl": ".",
     "paths": {
-      "@*": [
-        "./src/*"
-      ]
+      "@*": ["./src/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"
