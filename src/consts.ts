@@ -1,6 +1,6 @@
 import type { Site, Metadata, Socials } from "@types";
 
-export const ANIMATED_BACKGROUND = true;
+export const ANIMATED_BACKGROUND = false;
 
 export const SITE: Site = {
   NAME: "Ahmed Mujtaba Chang",
