@@ -4,6 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import { BLOG } from "@consts";
+import BackToPrev from "@components/BackToPrev.astro";
 
 const data = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
@@ -32,6 +33,9 @@ const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a));
 >
   <Container>
     <div class="space-y-10">
+      <div class="animate">
+        <BackToPrev href="/"> Back to Home </BackToPrev>
+      </div>
       <div class="animate font-semibold text-black dark:text-white">Blog</div>
       <div class="space-y-4">
         <!-- If no blogs to show -->
